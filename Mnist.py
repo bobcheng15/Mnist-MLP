@@ -49,8 +49,7 @@ class Dataset:
         
     def next_batch(self, sess):
         return sess.run(self.batch)
-class MLP_with_dataset:
-    def __init__(self, learning     
+#class MLP_with_dataset: not implemented
 class MLP_with_placeholder:
     def __init__(self, learning_rate=0.01):
        with tf.variable_scope('mlp_with_placeholder'):
